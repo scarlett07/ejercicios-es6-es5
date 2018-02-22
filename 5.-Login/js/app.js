@@ -5,9 +5,7 @@
 function user() {
   var passwordUser = prompt("Escribe una pablra");
   var password = 'laboratoria';
-  if (passwordUser === '') {
-    return 'falso'
-  } else if (passwordUser!= password) {
+  if (passwordUser === '' || passwordUser!= password) {
     return 'falso'
   }else {
     return 'verdadero'
@@ -19,9 +17,7 @@ function user() {
  const user = () => {
    let passwordUser = prompt("Escribe una pablra");
    const password = 'laboratoria';
-   if (passwordUser === '') {
-     return 'falso'
-   } else if (passwordUser!= password) {
+   if (passwordUser === '' || passwordUser!= password) {
      return 'falso'
    }else {
      return 'verdadero'
